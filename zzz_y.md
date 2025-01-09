@@ -24,7 +24,8 @@
       ssh-keygen -t rsa -b 4096 -C "269932361"
       ```
 
-  - 下一个
+  - 坠龙禁地压测，GM批量创建账号100个、区分地图、带仙盟，仙盟40人，然后手动创建一个账号，与创建的账号互换UID，登录之后打下坠龙禁地的传送门，然后调用
+  `test_lib:pressure_test(1,100,ai_bhv_test_zljd_dup_fight).`
   -
   -
   -
